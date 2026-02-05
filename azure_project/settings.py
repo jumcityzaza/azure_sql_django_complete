@@ -88,17 +88,18 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 #     }
 # }
 DATABASES = {
-    'default': {
-        'ENGINE': 'mssql',
-        'NAME': 'bearlab-sql-db',
-        'USER': 'bearlab-admin',
-        'PASSWORD': 'P@ss1234',
-        'HOST': 'bearlab-sql-server.database.windows.net',
-        'PORT': '1433',
-        'OPTIONS': {
-            'driver': 'ODBC Driver 18 for SQL Server',
-        },
-    },
+     'default': {
+         'ENGINE': 'mssql',
+         'NAME': 'jjummum-db',
+         'USER': 'jummum-admin',
+         'PASSWORD': 'Hueningkai1',
+         'HOST': 'jummum-db.database.windows.net',
+         'PORT': '1433',
+         'OPTIONS': {
+             'driver': 'ODBC Driver 18 for SQL Server',
+             'extra_params': 'Encrypt=yes;TrustServerCertificate=yes;Connection Timeout=30;',
+         },
+     },
 }
 
 
