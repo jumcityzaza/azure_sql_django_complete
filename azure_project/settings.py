@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 DATABASES = {
      'default': {
          'ENGINE': 'mssql',
-         'NAME': 'jjummum-db',
+         'NAME': 'jummum-db',
          'USER': 'jummum-admin',
          'PASSWORD': 'Hueningkai1',
          'HOST': 'jummum-db.database.windows.net',
